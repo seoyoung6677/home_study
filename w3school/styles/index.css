@@ -1,0 +1,22 @@
+#wrap {
+    background-color: #F5F7FA;
+    text-align: center;
+    width:440px;
+    height:956px;
+    text-align:center;
+}
+#wrap h1 { padding-top: 200px;
+            margin-bottom: 68px;
+
+}
+#wrap h1 img {}
+#wrap .btn_wrap {}
+#wrap .btn_wrap a {
+    display: block;
+    background-color: aqua;
+}
+#wrap .btn_wrap .login_btn {}
+#wrap .btn_wrap .signup_btn  {
+    
+}
+#wrap .btn_wrap .forgotpw_btn {}
