@@ -1,0 +1,75 @@
+#wrap {
+    width:440px; height:956px;
+    background-color:#F5F7FA;
+    padding:0 15px;
+    letter-spacing: -0.02em;
+}
+#wrap h1 {
+    font-size: 2.5rem;
+    font-weight:700;
+    color:#6C8EBF;
+    padding:150px 0 0 ;
+    margin: 0 0 32px;
+}
+#wrap > p {
+    font-size:1rem;
+    font-weight:400;
+    
+}
+#wrap h1+p {
+    margin-bottom:69px;
+}
+#wrap #login_frm {}
+#wrap #login_frm h2 {
+    font-size:1.375rem;
+    margin:0 0 17px;
+    color:#6C8EBF;
+    font-weight:600;
+}
+#wrap #login_frm p {
+    text-align: center;
+    background-color: white;
+    
+    
+}
+#wrap #login_frm p.user_in {
+    margin:0 0 41px;
+}
+#wrap #login_frm p.uers_btn {}
+#wrap #login_frm p input {
+    width:410px;
+    padding:15px 20px;
+    border-radius:10px;
+    border: 1px solid #000;
+    
+}
+#wrap #login_frm p #login_btn {
+    width: 410px;
+    border-radius: 10px;
+    border:1px solid #000;
+    display: block;
+    
+    font-weight: 300;
+    padding:15px 20px;
+    
+}
+#wrap #login_frm .login_Google{
+    width:410px;
+    padding:15px 20px;
+    border-radius:10px;
+    border: 1px solid #000;
+    display:inline-block;
+}
+#wrap #login_frm+p {
+    margin-top:222px;
+    text-align:center;
+
+}
+#wrap #login_frm p.user_btn {
+    
+    margin-bottom:11px;
+    
+    
+}
+
+

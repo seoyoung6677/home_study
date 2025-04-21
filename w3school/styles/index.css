@@ -10,13 +10,41 @@
 
 }
 #wrap h1 img {}
-#wrap .btn_wrap {}
+#wrap .btn_wrap {
+    width:300px;
+    margin: 0 auto;
+    border-color: black;
+    text-align: left;
+
+}
 #wrap .btn_wrap a {
     display: block;
-    background-color: aqua;
-}
-#wrap .btn_wrap .login_btn {}
-#wrap .btn_wrap .signup_btn  {
+    text-align:center;
     
 }
-#wrap .btn_wrap .forgotpw_btn {}
+#wrap .btn_wrap .login_btn {
+    height:40px;
+    line-height: 40px;
+    font-weight: 400px;
+    font-size:0.875rem ;
+    border-radius:10px; color:black;
+    background-color:#6C8EBF;
+    border:1px solid #000;
+
+}
+#wrap .btn_wrap .signup_btn  {
+    margin:16px 0 11px 0;
+    height:40px;
+    line-height: 40px;
+    font-weight: 400px;
+    font-size:0.875rem ;
+    border-radius:10px;
+    background-color:#fff;
+    border:1px solid #000;
+
+}
+#wrap .btn_wrap .pw_search {
+    display:inline;
+    font-size:0.75rem;
+    font-weight: 400px;
+}
