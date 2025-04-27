@@ -1,0 +1,68 @@
+/* kurly css */
+main {
+    width:1000px;
+    background-color:#eee;
+    margin:0 auto;/* 좌우 여백을 자동으로 맞춰서 가운데 정렬해줘줘 */
+}
+main h1 {}
+main h1 a {}
+main h1 a img {}
+/*================================== 가입약관 */
+main .law {
+background-color:#fff;
+width:90%;/* 부모main)의 90%크기 1000px의 90% 약 900px정도 */
+height:180px;
+margin:30px auto; /* 위아래 30px띄우고 좌우는 중앙정렬 */
+padding:16px;
+overflow:auto;
+}
+main .law h2 {
+    margin: 0 0 30px;
+}
+main .law h3 {margin:0 0 15px;}
+main .law p {line-height:1.5; margin:20px 0;}
+/*================================== 가입정보입력 */
+main #login_frm {}
+main #login_frm .member_info {
+    overflow:hidden;
+}
+main #login_frm .member_info dt {
+    width:200px;
+    background-color:lime;
+    float:left;
+    clear:both;
+}
+main #login_frm .member_info dd {}
+/* 사용자입력, 선택 양식을 담은 두번째 dd 선택자 */
+main #login_frm .member_info dd:nth-of-type(2n+1) {
+    background-color:yellow;
+    width:650px;
+    float:left;
+}
+/* 중복확인,인증번호받기를 담은 세번째 dd선택자 */
+main #login_frm .member_info dd:nth-of-type(2n) {
+    background-color:skyblue;
+    width:150px;
+    float:right;
+}
+/* 나머지 자식, 자손 개별 선택자 */
+main #login_frm .member_info dt em {}
+/* ===========================id,pw,name,email,phone 묶음속성 */
+main #login_frm .member_info dd input[name^=user]{
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:90%; padding:12px;
+}
+/* =============================개별속성(id) */
+main #login_frm .member_info dd input[name$=id] {}
+/* ============================오른쪽 중복확인, 인증번호 버튼 묶음 선택자 */
+main #login_frm .member_info dd:nth-of-type(2n) .btn {
+    background-color:red;
+}
+/* 휴대폰, 주소, 성별, 생년월일 선택자 */
+main #login_frm .member_info dd select[name^=news] {}
+main #login_frm .member_info dd select[name^=news] option {}
+main #login_frm .member_info dd input[name*=phone] option {}
+/* ================================인증번호 버튼 개별 선택자 */
+main #login_frm .member_info dd #acthentication_btn {background-color:coral;}
